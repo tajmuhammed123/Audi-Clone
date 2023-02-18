@@ -1,0 +1,403 @@
+@font-face {
+    src: url('309-font.ttf');
+    font-family: new;
+  }
+  @font-face {
+    src: url('AudiType-Normal_03.ttf');
+    font-family: normal-font;
+  }
+*{
+    font-family: new;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 72px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 95px 0;
+}
+.logo{
+    width: 68px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+}
+nav ul{
+    padding: 0px 30px 0px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    align-items: center;
+}
+nav ul li a{
+    color: #666666;
+    font-family: normal-font;
+}
+a{
+    text-decoration: none;
+}
+nav ul li :hover{
+    color: black;
+}
+header{
+    background-image: url('Images/2231\ Q3SB\ WEB\ BANNER\ 1920X1920-01.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+.main_head{
+    color: white;
+    font-size: 35px;
+    margin-left: 60px;
+    padding-top: 30px;
+    font-weight: normal;
+}
+.sub_head{
+    color: white;
+    font-size: medium;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 45px;
+    font-weight: normal;
+}
+.btn1{
+    background-color: white; 
+    border: 0; 
+    font-size: 17px; 
+    padding: 17px 40px 17px;
+    margin-left: 60px;
+}
+.btn1:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.btn2{
+    background-color: transparent; 
+    border: solid white 1px; 
+    font-size: 17px; 
+    padding: 17px 40px 17px;
+    margin-left: 60px;
+    color: white;
+    margin-left: 0;
+}
+.btn2:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#section2{
+    height: 1000px; 
+    width: 100%; 
+    float: left;
+}
+.models{
+    margin-left: 60px; 
+    margin-top: 25px; 
+    padding-bottom: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    width: fit-content;
+}
+.models-img{
+    width: 200px;
+    text-align: center;
+}
+#section2 ul li{
+    margin-top: 30px;
+    list-style: none;
+    padding: 0 20px 0;
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+    transition: transform .4s;
+}
+#section2 ul li:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+#section2 ul{
+    justify-content: center;
+    display: flex;
+}
+.sub{
+    padding: 60px 18%;
+    padding-top: 180px;
+    display: flex;
+}
+.sub-img{
+    width: 500px; 
+    float: left;
+}
+.sub-inner{
+    display: flex; align-items: center; padding-left: 50px;
+}
+.sub-text{
+    display: flex; 
+    font-size: 40px; 
+    font-weight: normal;
+}
+.sub-btn{
+    background-color: black; 
+    color: white; 
+    padding: 15px; 
+    width: 190px; 
+    margin-top: 40px;
+}
+.sub-btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.section3{
+    float: left;
+    height: 1300px; 
+    width: 100%; 
+    background-image: url('https://www.audi.in/content/dam/nemo/in/3_O-Homepage/E-tronHub-3840X4000.jpg?imwidth=1920');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+.section3-innerbox{
+    height: 290px; 
+    width: 550px; 
+    background-color: white; 
+    margin-top: 200px; 
+    margin-left: 50px;
+    padding: 50px 50px 10px 50px;
+}
+.innerbox-head{
+    font-size: 33px; 
+    opacity: 75%; 
+    margin-bottom: 30px;
+}
+.innerbox-cntnt{
+    line-height: 25px; 
+    font-size: 16px; 
+    font-family: normal-font; 
+    color: #666666; 
+    float: left;
+}
+.innerbox-btn1{
+    font-family: normal-font; 
+    float: left; 
+    background-color: black; 
+    color: white; 
+    padding: 15px; 
+    width: 140px; 
+    font-size: 16px;
+}
+.innerbox-btn1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.innerbox-btn2{
+    font-family: normal-font; 
+    float: left; 
+    border: solid black 1px; 
+    font-size: 17px; 
+    opacity: 0.8; 
+    padding: 15px 30px 15px; 
+    margin-left: 3px; 
+    background-color: white;
+}
+.innerbox-btn2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.sub-box{
+    padding: 50px 12%; 
+    display: flex; 
+    padding-top: 250px; 
+    padding-bottom: 250px;
+}
+.sub-box1{
+    display: flex; 
+    align-items: center; 
+    padding-left: 40px;
+}
+.subbox-text{
+    display: flex; 
+    font-size: 40px; 
+    font-weight: normal;
+}
+.subbox-btn1{
+    font-family: normal-font; 
+    float: left; 
+    background-color: black; 
+    color: white; 
+    padding: 15px; 
+    width: 140px; 
+    font-size: 16px;
+}
+.subbox-btn1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.subbox-btn2{
+    font-family: normal-font; 
+    float: left; 
+    border: solid black 1px; 
+    font-size: 17px; 
+    padding: 15px 30px 15px; 
+    margin-left: 3px; 
+    background-color: white;
+}
+.subbox-btn2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.dealer{
+    height: 450px; 
+    width: 100%; 
+    background-color: black;
+}
+.dealer-text{
+    float: left; 
+    width: 30%; 
+    height: 450px;
+}
+.dealer-maintext{
+    font-size: 40px; 
+    color: white; 
+    margin-top: 30px;
+}
+.dealer-btn{
+    font-family: normal-font; 
+    border: solid white 1px; 
+    font-size: 17px; 
+    padding: 15px 30px 15px; 
+    margin-left: 3px; 
+    background-color: black; 
+    color: white;
+}
+.dealer-btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.connect{
+    margin-top: 50px; 
+    width: 100%; 
+    height: 900px; 
+    background-color: black;
+}
+.connect-btn2{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+    padding: 10px 30px;
+}
+.connect-list{
+    float: left; 
+    height: 900px; 
+    width: 50%;
+    background-color: black;
+}
+.section6{
+    width: 100%;
+    height: 1200px;
+}
+.mainlist1{
+    margin-left: 60px; 
+    margin-top: 100px; 
+    float: left;
+    margin-right: 50px;
+    width: 90%;
+}
+.mainlist1-sub{
+    margin-top: 30px; 
+    width: 99%; 
+    display: flex; 
+    justify-content: space-between;
+}
+.mainlist1-text{
+    color: black; 
+    font-size: 17px; 
+    font-family: normal-font; 
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 850px;
+    background-color: black;
+}
+.footer-lists{
+    padding: 100px 100px 40px 100px;
+    display: flex;
+}
+.footer-lists ul{
+    margin: 30px;
+}
+.footer-lists ul li{
+    width: 200px;
+}
+.list-content{
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+.list-header{
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+.footer-lists ul li a{
+    color: white;
+    font-family: normal-font;
+}
+.social-media{
+    float: right;
+    margin-right: 100px;
+}
+.social-media-logo{
+    font-size: larger;
+    color: white;
+    padding: 0px 10px;
+}
+.footer-line{
+    width: 100%; 
+    float: left; 
+    margin-top: 20px; 
+    justify-content: center; 
+    display: flex;
+}
+.footer-hr{
+    width: 86%; 
+    border: none; 
+    background-color: white; 
+    height: 1px; 
+    opacity: 0.3;
+}
+.bottom-list{
+    padding-left: 100px;
+    padding-top: 20px;
+    float: left;
+}
+.bottom-list ul li{
+    display: inline-block;
+}
+.bottom-list ul li a{
+    color: white;
+    font-size: small;
+    font-family: normal-font;
+    padding: 10px;
+}
+.tandc{
+    float: left;
+    padding-left: 100px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+.tandc p{
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: normal-font;
+}
